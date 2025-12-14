@@ -3,7 +3,7 @@
 ## Estructura
 - news-agent/: Agente IA con LangGraph
 - backend/ : API Flask + SQLite
-- frontend/ : Página estática JS
+- frontend/ : Página estática JavaScript
 
 ## Instrucciones 
 
