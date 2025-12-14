@@ -10,18 +10,20 @@
 1. Crea un entorno virtual de Python y actívalo
    ```
    uv venv
-   .\venv\Scripts\activate
+   (Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass)
+   .\.venv\Scripts\activate
    ```
 2. Instala dependencias:
    ```
-   pip install -r requirements.txt
+   uv pip install -r requirements.txt
    ```
 3. Ve a la carpeta `backend/` e inicia el servidor.
    ```
    python app.py
    ```
    La base de datos SQLite (`posts.db`) se creará automáticamente.
-4. Ve a la carpeta `news-agent/` e inicia el agente.
+4. Ve a la carpeta `news-agent/` y crea un fichero .env con tu API KEY de OPENAI.
+5. Inicia el agente
    ```
    python main.py
    ```
