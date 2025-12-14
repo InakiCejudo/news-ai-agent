@@ -6,3 +6,4 @@ mejoras.txt
 .env
 .env.*
 news-agent/.env
+backend/posts.db
