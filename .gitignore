@@ -1,0 +1,7 @@
+.venv
+instrucciones.txt
+mejoras.txt
+*.docx
+.env
+.env.*
+news-agent/.env

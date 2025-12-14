@@ -1,0 +1,9 @@
+langgraph
+langchain[openai]
+langchain 
+langchain-openai 
+python-dotenv
+requests
+pydantic
+Flask
+flask-cors
