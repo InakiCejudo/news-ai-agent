@@ -29,4 +29,6 @@
    ```
 5. Abre `frontend/index.html` en el navegador.
 
+* Prompt ejemplo: "Generate a blog post with three main news from https://bbc.com"
+
 En el backend puedes ajusta el `host` si es necesario para acceder desde otra máquina.
